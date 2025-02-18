@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1739898779 source:c:\users\viole\onedrive\Работен плот\c\thirth_project_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
