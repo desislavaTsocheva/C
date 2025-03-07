@@ -1,46 +1,45 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-    int n, transport;
-    int price=0;
-    char type;
-    printf("Enter km: ");
-    scanf("%d",&n);
-    printf("Choose transport 1/2/3: ");
-    scanf("%d",&transport);
+int main() {
+    int n;
+    char period;
 
-    if(n<20&&transport==2){
-            transport=1;
+    double taxi_start_fee = 0.70, taxi_day_rate = 0.79, taxi_night_rate = 0.90;
+    double bus_rate = 0.09, train_rate = 0.06;
+
+    printf("Enter the distance (in kilometers): ");
+    scanf("%d", &n);
+    printf("Enter the period (D for day, N for night): ");
+    getchar();
+    scanf("%c", &period);
+
+    double cheapest_price = 1000000.0;
+
+    double taxi_price;
+    if (period == 'D') {
+        taxi_price = taxi_start_fee + taxi_day_rate * n;
+    } else {
+        taxi_price = taxi_start_fee + taxi_night_rate * n;
     }
-    while(n<100&&n>20&&transport==3){
-            printf("Choose new transport 1/2: ");
-            scanf("%d",&transport);
+    if (taxi_price < cheapest_price) {
+        cheapest_price = taxi_price;
     }
 
-    printf("Enter type d/n: ");
-    scanf("%c",&type);
-    switch(transport)
-    {
-    case 1:
-        if(type=='d'){
-            price=0.7+(0.79*n);
+    if (n >= 20) {
+        double bus_price = bus_rate * n;
+        if (bus_price < cheapest_price) {
+            cheapest_price = bus_price;
         }
-        else{
-             price=0.7+(0.9*n);
+         }
+
+    if (n >= 100) {
+        double train_price = train_rate * n;
+        if (train_price < cheapest_price) {
+            cheapest_price = train_price;
         }
-        break;
-    case 2:
-            price=0.09*n;
-        break;
-    case 3:
-           if(type=='d'){
-            price=0.06*n;
-        }
-        else{
-             price=0.7+(0.9*n);
-        }
-        break;
     }
+
+    printf("The cheapest transport will cost: %.2f BGN.\n", cheapest_price);
+
+    return 0;
 }
