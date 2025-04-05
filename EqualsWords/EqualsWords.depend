@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1743756000 source:c:\users\viole\onedrive\Работен плот\c\equalswords\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
