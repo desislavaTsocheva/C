@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1744109267 source:c:\users\viole\onedrive\Работен плот\c\structpoints\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

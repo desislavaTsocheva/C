@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1744115495 source:c:\users\viole\onedrive\Работен плот\c\structmotorcycles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
