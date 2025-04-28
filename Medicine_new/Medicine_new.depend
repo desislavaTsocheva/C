@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1745841049 source:c:\users\viole\onedrive\Работен плот\c\medicine_new\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+

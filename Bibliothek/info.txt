@@ -1,0 +1,9 @@
+<1>; <hgfrde>; <gtfrd>; <hgfd>, <3>
+<1>; <gfrd>; <hygtrfd>; <hgf>, <2>
+<1>; <hgfd>; <hygtfrd>; <hygtrf>, <2>
+<1>; <gtrfed>; <gtrfed>; <gtrfd>, <2>
+<1>; <gfd>; <hgtfrd>; <gbf>, <2>
+<1>; <fds>; <rfde>; <gfrde>, <2>
+<1>; <gtrfde>; <gtfrde>; <hgtfrd>, <2>
+<1>; <gfd>; <gtfrd>; <gf>, <2>
+<1>; <bgfde>; <gtfrde>; <gtfr>, <2>
