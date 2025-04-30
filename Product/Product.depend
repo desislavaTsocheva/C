@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1746003328 source:c:\users\viole\onedrive\Работен плот\c\product\main.c
+	<stdio.h>
+	<stdlib.h>
+
