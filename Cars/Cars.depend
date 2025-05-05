@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1746469644 source:c:\users\viole\onedrive\Работен плот\c\cars\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
